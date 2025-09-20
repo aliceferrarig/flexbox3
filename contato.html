@@ -3,33 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/contato.css" />
 
     <title>Contato</title>
   </head>
   <body>
     <header class="headerfooter">
-      <h1>Header</h1>
+      <h1>Entre em Contato</h1>
     </header>
-    <form action="">
-      <label for="">Nome:</label>
-      <input type="text" name="" id="" />
-      <label for="">Endereço:</label>
-      <input type="text" name="" id="" />
-      <label for="">Cidade:</label>
-      <input type="text" name="" id="" />
-      <label for="">Telefone:</label>
-      <input type="text" name="" id="" />
-      <label for="">Email:</label>
-      <input type="text" name="" id="" />
-      <label for="">Mensagem:</label>
-      <textarea name="" id="" ></textarea>
-      <button> Enviar </button>
-    </form>
+
+    <main class="container">
+      <h2>Fale com a nossa equipe</h2>
+      <form action="" class="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" />
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" />
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
 
     <footer class="headerfooter">
-      <p>Footer</p>
+      <p>© 2025 - Minha Empresa | Todos os direitos reservados</p>
     </footer>
   </body>
 </html>
